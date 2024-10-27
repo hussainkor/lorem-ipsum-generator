@@ -1,5 +1,6 @@
 {
   "name": "lorem-ipsum-generator",
+  "homepage": "https://www.mrhussain.in/portfolio/lorem-ipsum-generator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

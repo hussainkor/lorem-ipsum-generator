@@ -1,13 +1,86 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eff5fb;
+  height: 100%;
+}
+a.back-btn {
+  text-decoration: none;
+}
+.back-btn {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  padding: 4px 12px;
+  background: #f74d00;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 13px;
+  border: 1px solid #fff;
+}
+.lorem-generator {
+  max-width: 700px;
+  text-align: center;
+  background: #fff;
+  padding: 30px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.input-box {
+  margin: auto;
+  max-width: 280px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.input-box span {
+  font-size: 18px;
+}
+input {
+  border: 1px solid #4f9fdd;
+  padding: 5px 10px;
+  width: 80px;
+  font-size: 20px;
+  margin: 0 5px;
+}
+button {
+  padding: 10px 20px;
+  background: #4f9fdd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+p {
+  padding: 10px 15px;
+  background: #e7e7e7;
+  margin: 20px 50px;
+  position: relative;
+  font-size: 14px;
+  line-height: 23px;
+}
+.count {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: #4f9fdd;
+  color: #fff;
+  padding: 3px 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.alert-box {
+  padding: 8px 10px;
+  display: block;
+  background: #ffc7c9;
+  color: #cb2027;
+  margin: 0 50px 40px;
+  border-radius: 5px;
 }
